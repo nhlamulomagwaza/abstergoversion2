@@ -7,8 +7,8 @@ import { useState, useEffect } from 'react';
 const Signup: React.FC = () => {
 
   const [toggleForms, setToggleForms] = useState<boolean>(true);
-  const [username, setUsername] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [username, setUsername] = useState<string>('arthurmendes');
+  const [password, setPassword] = useState<string>('passkey1234');
   const [loading, setLoading] = useState(false);
 
 
