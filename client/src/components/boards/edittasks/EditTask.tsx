@@ -65,7 +65,7 @@ const EditTask: React.FC = () => {
 
     try {
       setLoading(true);
-      const response = await fetch(`/api//cards/${boardId}/${selectedTask._id}/${columnId}/`, {
+      const response = await fetch(`/api/cards/${boardId}/${selectedTask._id}/${columnId}/`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
