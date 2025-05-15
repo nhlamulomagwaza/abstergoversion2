@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+*{
+
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+
+  width:100%;
+  overflow-x: hidden;
+}
+body{
+
+  background-color: black;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  color:white;
+  width:100%;
+}
+a{
+  color:black;
+}
+
+.mobile-menu-reveal{
+ 
+  background-color: white;
+  display:none;
+
+  cursor:pointer;
+  height:70px;
+  width:70px;
+
+  border:none;
+  outline:none;
+  transition: .1s ease-in-out;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  z-index: 999999999999999;
+  position: fixed;
+  bottom:50px;
+  left:50px;
+  top:70%;
+  transition: .3s ease-in-out;
+}
+
+
+.mobile-menu-reveal:hover{
+  background-color: black;
+  color:white;
+  border:1px solid white;
+}
+
+.mobile-menu-none{
+  display:none;
+}
+
+
+@media(max-width:760px){
+
+
+
+  .mobile-menu-reveal{
+    display:block;
+  }
+}
+
+

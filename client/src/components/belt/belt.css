@@ -1,0 +1,156 @@
+
+
+
+.belt{
+
+    margin-left: 22%;
+    padding-top: 2rem;
+    background-color: rgb(28, 28, 28);
+    position: fixed;
+    top:0;
+    width: 78%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0.1px solid rgb(116, 116, 116);
+  
+}
+
+.belt-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+ 
+}
+
+.btn-options{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+
+.add-new-task{
+
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    gap:1rem;
+    padding:0.6rem 1rem;
+    background-color: white;
+    border:none;
+    outline:none;
+    transition: .2s ease-in-out;
+}
+
+.add-new-task:hover{
+
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    border:1px solid white;
+}
+
+.btn-dots{
+
+    background-color: transparent;
+    outline:none;
+    border:none;
+    color:white;
+    cursor: pointer;
+
+}
+
+.btn-dots:hover{
+
+    color:rgb(81, 160, 244);
+}
+
+
+
+@media(max-width:760px){
+
+    .belt{
+
+        margin-left: 0%;
+        padding-top: 2rem;
+        background-color: rgb(28, 28, 28);
+        position: fixed;
+        top:0;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        border-bottom: 0.1px solid rgb(116, 116, 116);
+      
+    }
+}
+
+
+@media(max-width:455px){
+
+    .board-title{
+        font-size: 1.5rem;
+    }
+
+    .add-new-task{
+
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        gap:0.3rem;
+        padding:0.6rem 1rem;
+        background-color: white;
+        border:none;
+        outline:none;
+        transition: .2s ease-in-out;
+    }
+
+}
+@media(max-width:415px){
+
+    .add-new-task{
+
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        gap:0.3rem;
+        padding:0.6rem 1rem;
+        background-color: white;
+        border:none;
+        outline:none;
+        transition: .2s ease-in-out;
+    }
+
+    .belt-content{
+        display:flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+     
+    }
+    .btn-options{
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:0.1rem;
+    }
+    .add-new-task{
+
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        gap:0.3rem;
+        padding:0.6rem 0.5rem;
+        background-color: white;
+        border:none;
+        outline:none;
+        transition: .2s ease-in-out;
+    }
+
+}

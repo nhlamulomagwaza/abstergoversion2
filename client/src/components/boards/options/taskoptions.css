@@ -1,0 +1,32 @@
+.task-options{
+
+    position: absolute;
+    right:-40px;
+    top:5rem;
+    background-color: rgb(76, 76, 76);
+}
+
+.task-options-card{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: rgb(97, 97, 97);
+    padding:1rem 2rem;
+    border-radius: 5px;
+    color:white;    
+}
+
+
+.task-option{
+    background: none;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+
+.task-option:first-child:hover{
+    color:aqua;
+}
+.task-option:nth-child(2):hover{
+    color:red;
+}

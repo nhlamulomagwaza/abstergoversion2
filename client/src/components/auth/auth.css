@@ -1,0 +1,116 @@
+.sign-in-content{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../assets/abstergo-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 100;
+   left:0;
+   top:0;
+   right:0;
+   bottom:0;
+   width: 100%;
+}
+
+
+
+.demo-title{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.demo-account-details{
+
+    font-weight: 300;
+}
+
+@media(max-width:760px){
+
+
+    .sign-in-content{
+
+        background-position: center;
+       
+    }
+}
+
+@media(max-width:450px){
+    .sign-in-content{
+        background-repeat: round;
+        background-size: contain;
+    }
+}
+
+.sign-in-container{
+
+    background-color: rgb(35, 35, 35);
+    padding:2rem;
+}
+
+.sign-in-title{
+    margin-bottom: 1rem;
+}
+.sign-in-cta{
+
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+.sign-in-form{
+
+    display:flex;
+    flex-direction: column;
+}
+
+
+.sign-in-form input{
+    margin-bottom: 1rem;
+    background-color: white;
+    outline:none;
+    padding:0.6rem 1rem;
+    border:none;
+}
+
+.sign-in-btn{
+
+    padding:0.6rem;
+    background-color: #2672c3;
+    color:white;
+    cursor: pointer;
+    border:none;
+    transition: .2s ease-in-out;
+
+     }
+
+
+     .sign-in-btn:hover{
+
+        background-color: black;
+        border:1px solid white;
+     }
+
+
+
+     .new-user{
+
+        margin-top: 2rem;
+    font-weight: 300;
+
+     }
+
+
+     .sign-up-link{
+        cursor: pointer;
+        color: rgb(130, 183, 229);
+        transition: .3s ease;
+     }
+
+     .sign-up-link:hover{
+
+        color:white;
+     }
